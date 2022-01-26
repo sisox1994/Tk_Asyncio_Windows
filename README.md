@@ -1,3 +1,8 @@
+# Python 視窗化程式範本
+
+本範例使用 Asyncio模組建立背景任務,讓IO處理時不會導致Windows視窗卡死
+
+```python
 import asyncio
 import threading
 import time
@@ -80,3 +85,5 @@ async def main():
 
 if __name__ ==  "__main__":
     asyncio.run(main())
+```
+
